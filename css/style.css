@@ -1,0 +1,495 @@
+body{
+    background-color: #172119;
+    font-family: 'Kelly Slab', cursive;
+    font-style: normal;
+    font-weight: normal;
+    color: #DB298A;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/JOJO.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+.container{
+    color: #DB298A;
+    width: 95%;
+    max-width: 1140px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 76px;
+    line-height: 89px;
+    margin-bottom: 10px;
+}
+.menu-list {
+    margin-left: auto;
+}
+.menu-link {
+    font-family: Kelly Slab;
+   
+    font-size: 34px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #DB298A;
+    margin-left: 24px;
+}
+.social-link {
+    margin-left: 20px;
+}
+.genre{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+    display: block;
+
+    color: #DB298A;
+}
+.reting {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.rating-number {
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 9px;
+}
+.main-title {
+    font-size: 76px;
+    line-height: 89px;
+    margin-bottom: 10px;
+}
+.main-description {
+    font-family: 'Rubik', sans-serif;
+    max-width: 485px;
+    font-style: 14px;
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+.button {
+    display: inline-block;
+    background-color: #DB298A;
+    border-radius: 8px;
+    color: cornsilk;
+    border: none;
+    padding: 22px 72px;
+    text-decoration: none;
+}
+.button:active {
+    color: cornsilk;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+}
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#DB298A ;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    margin: auto;
+}
+.play-img{
+    position: relative;
+    transform: translateX(5px);
+}
+.play::before{
+    content: "";
+    width: 132px;
+    height: 132px;
+    background: #DB298A;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 50%;
+    left: -16px;
+    top: -16px;
+}
+/* slider */
+.series {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    position: relative;
+    max-width: 420px;
+}
+.card {
+    width: 164px;
+    height: 113px;
+    
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 13px;
+    margin-right: 30px;
+}
+.card-sumtitle {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 2px;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.series-1 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("../img/series/series-1.png") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    border: none;
+}
+.series-2 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("../img/series/series-2.png") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    text-decoration: none;
+}
+.series-3 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("../img/series/series-3.png") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+    text-decoration: none;
+}
+.series-4 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("../img/series/series-4.png") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-5 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/5_1536780218.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-6 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/6_1536780597.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-7 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/7_1536780975.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-8 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/8_1536781331.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-9 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/9_1536781687.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-10 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/10_1536782064.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-11 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/11_1536782417.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-12 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/12_1536782795.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-13 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/13_1536783149.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-14 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/14_1536783503.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-15 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/15_1536783858.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-16 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/16_1536784215.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-17 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/17_1536784574.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-18 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/18_1536784930.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-19 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/19_1536785286.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-20 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/20_1536785642.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-21 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/21_1536785997.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-22 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/22_1536786352.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-23 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/23_1536786707.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-24 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/24_1536787062.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-25 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/25_1536787417.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.series-26 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url("https://gen.jut.su/uploads/preview/124/0/1/26_1536787772.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    
+}
+.arrow {
+    width: 32px;
+    height: 23px;
+    border: none;
+    background-image: url("../img/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 0-32px;
+}
+.footer {
+    background-color: #142300;
+    padding: 20px 0;
+    margin-top: auto;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.swiper-container {
+    max-width: 420px;
+    margin-left: 0;
+}
+.menu-button {
+    display: none;
+}
+@media (max-width: 760px) {
+    .play {
+        display: none;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+}
+@media (max-width: 540px) {
+    .menu-button {
+        display: block;
+        position: absolute;
+        right: 35px;
+        top: 40px;
+        width: 30px;
+        height: 2px;
+        background-color: #DB298A;
+        border: none;
+    }
+    .menu-button:before {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: -7px;
+        width: 30px;
+        height: 2px;
+        background-color: #DB298A;
+    }
+    .menu-button:after {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 9px;
+        width: 30px;
+        height: 2px;
+        background-color: #DB298A;
+    }
+    .header {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 250px;
+        background-color: #DB298A;
+        padding-bottom: 40px;
+    }
+    .header-active {
+        display: block;
+    }
+    .logo {
+        margin-bottom: 25px;
+    }
+    .menu-list {
+        margin: auto;
+        margin-right: 0;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-link {
+        margin-right: 0;
+        margin-bottom: 17px;
+    }
+    .social {
+        order: 1;
+        margin-bottom: 22px;
+    }
+    .social-link:first-child {
+        margin-left: 0;
+    }
+    .swiper-container {
+        width: 80%;
+    }
+    .main-content {
+        margin-top: 195px;
+    }
+    .main-title {
+        font-size: 56px;
+    }
+}
